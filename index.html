@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Credit Cards Landing Page</title>
+</head>
+<body class="max-w-7xl mx-auto">
+    <nav class="flex justify-between items-center px-10 py-5 h-1/5 bg-black text-white font-semibold">
+        <!-- logo -->
+        <div>
+            <img src="./assets/icon/Logo.svg" alt="logo">
+        </div>
+        <!-- list components -->
+        <div>
+            <ul class="flex gap-10 max-sm:hidden">
+                <li>Home</li>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>About us</li>
+            </ul>
+        </div>
+        <!-- buttons -->
+        <div class="flex gap-2">
+            <select class="bg-black text-white max-md:hidden">
+                <option value="option1">Eng</option>
+                <option value="option2">Hindi</option>
+            </select>
+            <button class="flex max-lg:hidden">
+                <!-- <img class="" src="./assets/icon/btn-pink-bg.svg" alt=""> -->
+                <p class="bg-fuchsia-600 px-2 py-3 rounded-xl">Contact Us</p>
+            </button>
+        </div>
+
+        <!-- Dropdown navbar item when dispaly become small -->
+        <select class="bg-black text-white hidden max-sm:block bg-black text-white">
+            <option value="option1">Home</option>
+            <option value="option2">Features</option>
+            <option value="option3">Pricing</option>
+            <option value="option3">About Us</option>
+            <option value="option3">Contact Us</option>
+        </select>
+    </nav>
+
+    
+</body>
+</html>
