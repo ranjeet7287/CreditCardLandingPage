@@ -8,7 +8,7 @@
     <title>Credit Cards Landing Page</title>
 </head>
 <body class="max-w-7xl mx-auto">
-    <nav class="flex justify-between items-center px-10 py-5 h-1/5 bg-black text-white font-semibold">
+    <nav class="flex justify-between items-center px-10 py-5 h-1/5 w-[100%] bg-black text-white font-semibold">
         <!-- logo -->
         <div>
             <img src="./assets/icon/Logo.svg" alt="logo">
@@ -39,11 +39,59 @@
             <option value="option1">Home</option>
             <option value="option2">Features</option>
             <option value="option3">Pricing</option>
-            <option value="option3">About Us</option>
-            <option value="option3">Contact Us</option>
+            <option value="option4">About Us</option>
+            <option value="option5">Contact Us</option>
+            <option value="option6">GET STARTED </option>
+
         </select>
     </nav>
 
-    
+    <!-- main section -->
+    <section class="bg-black text-white h-[100vh] flex flex-col pt-20 pb-20 z-[20]   ">
+        <div class="w-[65%] ml-20 text-7xl  pb-10 max-sm:text-4xl">
+            <p>Simplify All Transactions in <span class="text-fuchsia-500 font-bold">One Card</span></p>
+        </div>
+
+        <div class="w-2/5 ml-20">
+            <p class="text-md text-stone-300 pb-20">
+                Hurry up and join now, with you can manage your daily finances easily and safely
+            </p>
+
+            <button class="flex text-xl bg-fuchsia-600 px-3 py-4 rounded-xl">
+                   GET STARTED 
+                <img class="mt-2 ml-2 max-sm:hidden" src="./assets/icon/RightArrow.svg" alt="">
+            </button>
+
+            <div class="text-xl mt-20 max-md:hidden">
+                <span class="mr-5">42K 
+                    <span class="text-fuchsia-500">+</span> 
+                    Happy Active User
+                </span>
+                <span>|</span>
+                <span class="ml-5 font-bold z-[100]"> 
+                    12K 
+                    <span class="text-fuchsia-500">+</span>
+                    Year Experience
+                </span>
+            </div>
+        </div>
+
+        <img  class=" absolute  top-[5%] left-[30%] h-[90%] w-[70%] opacity-25  overflow-hidden max-sm:hidden " src="./assets/photo/frontCards.png" alt="">
+        <!-- <img  class=" absolute  top-[10%] left-[50%] h-[85%] w-[50%] opacity-100  overflow-hidden z-[10] max-md:hidden" src="./assets/photo/frontCards.png" alt=""> -->
+
+    </section>
+
+    <section class="flex bg-slate-700  max-md:flex-col justify-around p-5">
+        <img class= "p-5"src="./assets/icon/Logo.svg" alt="">
+        <img class= "p-5" src="./assets/icon/Logo.svg" alt="">
+        <img class= "p-5" src="./assets/icon/Logo.svg" alt="">
+        <img class= "p-5" src="./assets/icon/Logo.svg" alt="">
+        <img class= "p-5" src="./assets/icon/Logo.svg" alt="">
+    </section>
+  
+
+
+
+
 </body>
 </html>
